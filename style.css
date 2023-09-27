@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(to bottom right, wheat,grey);
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="password"],
+  .form-group input[type="email"],
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .form-group .radio-group {
+    display: flex;
+  }
+  
+  .form-group .radio-group label {
+    margin-right: 10px;
+  }
+  
+  .form-group .checkbox-group label {
+    display: block;
+  }
+  
+  .form-group .file-upload input[type="file"] {
+    display: none;
+  }
+  
+  .form-group .file-upload label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-group .file-upload label:hover {
+    background-color: #45a049;
+  }
+  
+  .form-group .file-upload span {
+    margin-left: 10px;
+  }
+  
+  .form-group .file-upload input[type="text"] {
+    width: auto;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    cursor: default;
+  }
+  
+  .form-group .file-upload input[type="text"]::placeholder {
+    color: #ccc;
+  }
+  
+  .form-group .file-upload input[type="text"]:focus {
+    outline: none;
+  }
+  
+  .link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+  
+  .link-button:hover {
+    background-color: blue;
+  }
+  
+  
+
+  
